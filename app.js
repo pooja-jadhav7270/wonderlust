@@ -22,6 +22,7 @@ const reviewRouter = require("./routes/review.js");
 const userRouter = require("./routes/user.js");
 const user = require("./models/user.js");
 
+const PORT = process.env.PORT || 3000;
 const dbUrl = process.env.ATLASDB_URL;
 
 main().then(()=>{
@@ -113,7 +114,7 @@ app.use((err,req,res,next)=>{
     // res.status(status).send(massege);
 });
 
-app.listen(3000,() => {
-    console.log("server is listing to port 3000");
+app.listen(PORT,() => {
+    console.log(`Server running on port ${PORT}`);
 });
 
