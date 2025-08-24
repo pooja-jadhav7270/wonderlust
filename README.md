@@ -16,10 +16,6 @@ Wonderlust is a full-stack travel booking web application inspired by Airbnb. Bu
 
 ✅ User authentication (Login / Register)
 
-✅ Secure password hashing with bcrypt
-
-✅ JWT-based authentication
-
 ✅ RESTful API with full CRUD operations
 
 ✅ Create, read, update, and delete travel listings
@@ -40,7 +36,7 @@ Database: MongoDB Atlas
 
 Frontend: EJS (templating), Bootstrap
 
-Authentication: JWT + bcrypt
+Authentication: password npm package 
 
 Deployment: Render
  
